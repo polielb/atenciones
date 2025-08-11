@@ -1,0 +1,44 @@
+- Abrir la consola en la carpeta del proyecto
+- En CMD o PowerShell:
+
+cd C:\sistemaRomina
+
+- Inicializar el repositorio local
+
+git init
+
+- (Opcional pero recomendado) Ignorar archivos innecesarios
+Crea un archivo .gitignore para no subir node_modules, .env, etc.:
+echo node_modules/ > .gitignore
+echo .env >> .gitignore
+
+Agregar todos los archivos al seguimiento de Git
+git add .
+
+El punto (.) significa “agregar todos los archivos y carpetas” que no estén en .gitignore.
+
+Crear el primer commit
+
+git commit -m "Versión inicial del proyecto"
+
+Vincular el repositorio local con el remoto en GitHub
+
+git branch -M master
+git remote add origin https://github.com/polielb/atenciones.git
+
+Paso 1: Generar clave SSH
+ssh-keygen -t ed25519 -C "tu-email@example.com"
+
+Paso 2: Agregar la clave a GitHub
+Copia la clave pública:
+
+cat ~/.ssh/id_ed25519.pub
+
+Ve a GitHub → Settings → SSH and GPG keys → New SSH key
+Pega la clave pública
+
+Paso 3: Cambiar la URL del repositorio
+
+git remote set-url origin git@github.com:polielb/atenciones.git
+
+git push -u origin master
