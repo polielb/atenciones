@@ -65,7 +65,7 @@ class ApiService {
 
   static async verifyResetToken(token) {
     try {
-      const response = await axios.get(`${API_BASE_URL}/verify-reset-token.php?token=${token}`);
+      const response = await axios.get(`${API_BASE_URL}/verify_reset_token.php?token=${token}`);
       return response.data;
     } catch (error) {
       console.log('Error en verifyResetToken:', error.response?.data); // Debug log

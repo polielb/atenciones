@@ -87,7 +87,7 @@ try {
         // Si no se puede enviar email, eliminar el token creado
         
         // PRIMERO: Grabar en histórico antes del DELETE
-		
+		/*
         $queryTokenParaBorrar = "SELECT * FROM reseteo_clave WHERE token = :token";
         $stmtTokenParaBorrar = $db->prepare($queryTokenParaBorrar);
         $stmtTokenParaBorrar->bindParam(":token", $token);
@@ -120,7 +120,7 @@ try {
         $deleteStmt = $db->prepare($deleteQuery);
         $deleteStmt->bindParam(":token", $token);
         $deleteStmt->execute();
-        
+        */
         
         http_response_code(500);
         echo json_encode(["error" => "No se pudo enviar el email de confirmación"]);
