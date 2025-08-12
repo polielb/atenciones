@@ -1,6 +1,6 @@
 <?php
 // ================================================================================
-// ARCHIVO: backend-atencionesfsa/test.php
+// ARCHIVO: backend/test.php
 // ================================================================================
 
 require_once 'config/database.php';

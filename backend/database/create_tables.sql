@@ -1,6 +1,6 @@
 -- ================================================================================
 -- ESTRUCTURA COMPLETA DE BASE DE DATOS CORREGIDA
--- backend-atencionesfsa/database/create_tables_corrected.sql
+-- backend/database/create_tables_corrected.sql
 -- ================================================================================
 
 -- Crear base de datos

@@ -1,6 +1,6 @@
 <?php
 // ================================================================================
-// API LOGIN CORREGIDA - backend-atencionesfsa/api/login.php
+// API LOGIN CORREGIDA - backend/api/login.php
 // ================================================================================
 
 // Manejar CORS primero

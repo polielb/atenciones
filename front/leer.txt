@@ -1,8 +1,8 @@
-#Configuración inicial del proyecto atencionesfsa
+#Configuración inicial del proyecto atenciones
 
 #Crear el proyecto base
-npx create-expo-app@latest atencionesfsa --template blank
-cd atencionesfsa
+npx create-expo-app@latest atenciones --template blank
+cd atenciones
 
 # Instalar dependencias para web
 npx expo install react-dom react-native-web @expo/metro-runtime
@@ -49,7 +49,7 @@ npm install react-native-dotenv
 
 
 #Estructura de carpetas recomendada
-atencionesfsa/
+atenciones/
 ├── src/
 │   ├── components/
 │   ├── screens/
@@ -73,11 +73,11 @@ npx expo start -c
 
   ******************** mas   ****************************** 
 
-  mklink /D C:\xampp\htdocs\backend-atencionesfsa C:\sistemaRomina\backend-atencionesfsa
+  mklink /D C:\xampp\htdocs\backend C:\sistemaRomina\backend
   
   
   ***************** probar cors *********************
   # Usar la URL correcta (con backend)
-	curl -i -X OPTIONS -H "Origin: http://localhost:8081" http://localhost/backend-atencionesfsa/api/login.php
+	curl -i -X OPTIONS -H "Origin: http://localhost:8081" http://localhost/backend/api/login.php
 
-	curl -i -X POST -H "Content-Type: application/json" -H "Origin: http://localhost:8081" -d '{"correo":"test@example.com","clave":"12345"}' http://localhost/backend-atencionesfsa/api/login.php
+	curl -i -X POST -H "Content-Type: application/json" -H "Origin: http://localhost:8081" -d '{"correo":"test@example.com","clave":"12345"}' http://localhost/backend/api/login.php

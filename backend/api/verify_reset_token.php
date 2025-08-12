@@ -1,6 +1,6 @@
 <?php
 // ================================================================================
-// API VERIFY TOKEN CORREGIDA - backend-atencionesfsa/api/verify_reset_token.php
+// API VERIFY TOKEN CORREGIDA - backend/api/verify_reset_token.php
 // ================================================================================
 
 define('RESPONSE_CONTENT_TYPE', 'html');

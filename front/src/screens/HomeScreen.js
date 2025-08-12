@@ -1,5 +1,5 @@
 // ================================================================================
-// ARCHIVO: atencionesfsa/src/screens/HomeScreen.js
+// ARCHIVO: front/src/screens/HomeScreen.js
 // ================================================================================
 
 import React from 'react';
@@ -77,12 +77,12 @@ const HomeScreen = ({ navigation, route }) => {
           <Text style={styles.sectionTitle}>Información del Sistema</Text>
           
           <View style={styles.infoBox}>
-            <Text style={styles.infoTitle}>✅ Componentes Funcionando:</Text>
-            <Text style={styles.infoText}>• Autenticación de usuarios</Text>
-            <Text style={styles.infoText}>• Reseteo de contraseñas</Text>
-            <Text style={styles.infoText}>• Sistema de tokens</Text>
-            <Text style={styles.infoText}>• Envío de emails</Text>
-            <Text style={styles.infoText}>• Navegación entre pantallas</Text>
+            <Text style={styles.infoTitle}>�?Componentes Funcionando:</Text>
+            <Text style={styles.infoText}>�?Autenticación de usuarios</Text>
+            <Text style={styles.infoText}>�?Reseteo de contraseñas</Text>
+            <Text style={styles.infoText}>�?Sistema de tokens</Text>
+            <Text style={styles.infoText}>�?Envío de emails</Text>
+            <Text style={styles.infoText}>�?Navegación entre pantallas</Text>
           </View>
 
           <View style={styles.testInfo}>

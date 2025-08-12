@@ -1,5 +1,5 @@
 // ================================================================================
-// ARCHIVO: atencionesfsa/src/screens/LoginScreen.js
+// ARCHIVO: front/src/screens/LoginScreen.js
 // ================================================================================
 
 import React, { useState } from 'react';

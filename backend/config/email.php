@@ -1,6 +1,6 @@
 <?php
 // ================================================================================
-// CONFIGURACIÓN DE EMAIL CORREGIDA - backend-atencionesfsa/config/email.php
+// CONFIGURACIÓN DE EMAIL CORREGIDA - backend/config/email.php
 // ================================================================================
 
 // Cargar PHPMailer manualmente
@@ -59,7 +59,7 @@ class EmailService {
             $this->mail->addAddress($email);
             
             // Construir el enlace de reseteo
-            $resetLink = $_ENV['BACKEND_URL'] . "/backend-atencionesfsa/api/verify_reset_token.php?token=" . $token;
+            $resetLink = $_ENV['BACKEND_URL'] . "/backend/api/verify_reset_token.php?token=" . $token;
             
             // Extraer usuario del email para personalizar
             $usuario = substr($email, 0, strpos($email, '@'));

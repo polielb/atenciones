@@ -1,6 +1,6 @@
 <?php
 // ================================================================================
-// API PASSWORD RESET CORREGIDA - backend-atencionesfsa/api/reset_password.php
+// API PASSWORD RESET CORREGIDA - backend/api/reset_password.php
 // ================================================================================
 
 require_once '../config/cors.php';
