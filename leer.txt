@@ -51,6 +51,8 @@ http://localhost/backend/api/verify_reset_token.php?token=cc139d446242fdff271e93
 
 http://localhost/backend/api/verify_reset_token.php?token=
 
+http://192.168.16.20/backend/api/verify_reset_token.php?token=
+
 http://192.168.16.20/backend/api/verify_reset_token.php?token=5bfbccc7649ddb2b7a96778adc96401639c1a0bca666e6b737fff0eed645c328
 
 
