@@ -66,7 +66,7 @@ const LoginScreen = ({ navigation }) => {
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <View style={styles.logoContainer}>
           <Ionicons name="medical" size={80} color="#2196F3" />
-          <Text style={styles.title}>AtencionesFSA</Text>
+          <Text style={styles.title}>AtencionesFSA Formosa</Text>
           <Text style={styles.subtitle}>Sistema de Gestión</Text>
         </View>
 
